@@ -16,6 +16,7 @@ def main():
     s.listen(1)
     conn, addr = s.accept()
     print('Connected by', addr)
+    print(conn)
 
     while True:
         data = conn.recv(gBufSize)
