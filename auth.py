@@ -11,7 +11,7 @@ def main():
     port = gAuthPort 
     
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    s.bing((host, port)) 
+    s.bind((host, port)) 
     
     s.listen(1)
     conn, addr = s.accept()
