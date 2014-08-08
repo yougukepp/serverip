@@ -11,8 +11,6 @@ now=$(date '+%Y-%m-%d %H:%M:%S')
 # 获取外网ip
 curl ifconfig.me/ip > ip
 
-sleep 10
-
 git add .
 git commit -m "$now"
 
