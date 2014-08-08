@@ -21,7 +21,7 @@ def main():
         data = conn.recv(gBufSize)
         if not data:
             break
-        conn.sendall(all)
+        conn.sendall(data)
         conn.close()
 
 if __name__ == '__main__':
