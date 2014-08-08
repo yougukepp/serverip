@@ -21,6 +21,7 @@ def main():
         data = conn.recv(gBufSize)
         if not data:
             break
+
         conn.sendall(data)
         conn.close()
 
