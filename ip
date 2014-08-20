@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>Redirect to login page</title>
+<title>Uh oh! Login screen unavailable!</title>
 <meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
 
 <style>
@@ -71,7 +71,7 @@ a:visited {
 <body>
 
 <div id="header">
-    <h2>Redirect to login page</h2>
+    <h2>Uh oh! Login screen unavailable!</h2>
 </div>
 
 <div id="menu">
@@ -94,7 +94,7 @@ a:visited {
 </div>
 
 <div id="content">
-<h2>Please <a href='http://115.28.91.239:80/login/?gw_address=192.168.16.1&gw_port=2060&gw_id=D0C7C0643CC3&mac=08:60:6e:f0:69:0e&url=http%3A//ifconfig.me/ip'>click here</a>.</h2>
+<h2><p>We apologize, but it seems that we are currently unable to re-direct you to the login screen.</p><p>The maintainers of this network are aware of this disruption.  We hope that this situation will be resolved soon.</p><p>In a couple of minutes please <a href='http://ifconfig.me/ip'>click here</a> to try your request again.</p></h2>
 </div>
 
 <div id="copyright">
